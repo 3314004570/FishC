@@ -1,3 +1,19 @@
+#replace()函数
+#可以替换字符串中的函数，未指定次数则全部替换
+
+#示例：
+#清空指定字符串
+a = 'ABABAB'
+a.replace('AB', '')
+a = ''
+
+#判断字符串是否由重复字符组成
+a = 'ABABAB'
+if a.replace('AB', '') == ''
+	print('是的')
+
+#2023.7.31
+
 将msedgedriver.exe放在python.exe同目录下
 
 driver_url为下载的msedgedriver.exe所在位置
